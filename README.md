@@ -5,8 +5,8 @@
 Alexander cortes cordoba, PhD. <br />
 Miguel Angel Morales Ortiz, PhD. <br />
 Manuel David Lucero Casanova, PhD. <br />
-  
-Programación, II-2025 <br />
+  <p align="center">
+Programació<pn, II-2025 <br />
 GDSPROC <br />
 Uniquindío <br />
 </p>
