@@ -2,9 +2,9 @@
  # Lab1: tipos de datos avanzados y archivos en python (-RA-1-RA-3-Y-RA-4-)
  </h1>
  <p align="center">
-Alexander cortes cordoba, PhD. <br />
-Miguel Angel Morales Ortiz, PhD. <br />
-Manuel David Lucero Casanova, PhD. <br />
+Alexander cortes cordoba,. <br />
+Miguel Angel Morales Ortiz,. <br />
+Manuel David Lucero Casanova,. <br />
   <p align="center">
 Programació<pn, II-2025 <br />
 GDSPROC <br />
