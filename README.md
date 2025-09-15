@@ -43,4 +43,5 @@ El módulo debe incorporar funciones que permitan:
 - Persistir las consultas en un archivo de texto, almacenándolas como objetos JSON generados a partir de diccionarios en Python, siguiendo el mismo esquema utilizado para el registro de usuarios.
  ## Referencias
  [1] Geeks for Geeks, "What is an IP Address?",url=https://www.geeksforgeeks.org/computer-science-fundamentals/what-is-an-ip-address/ .
+ 
 [2] W3schools, "Javascript JSON",url=https://www.w3schools.com/js/js_json.asp.
