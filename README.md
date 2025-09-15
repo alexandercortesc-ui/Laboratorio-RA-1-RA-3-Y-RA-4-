@@ -27,6 +27,7 @@ La nueva versión del programa debe cumplir con los siguientes requisitos:
 - 	Verificar si el usuario ya está registrado, comparando su número de identificación con los registros existentes.
 - 	En caso de que el usuario ya exista, la función debe retornar una cadena que indique el error correspondiente.
 -	Si el usuario no está previamente registrado, debe guardar sus datos correctamente y retornar una cadena que confirme el registro exitoso.
+
 Este ejercicio tuvo como objetivo consolidar los conocimientos adquiridos en los retos anteriores, promoviendo una implementación eficiente de estructuras de datos, validación de entradas y persistencia de información en formato estructurado.
 ## Reto 4: Inicio de sesión del usuario. codigo:
 En el reto número 4, se incrementó el nivel de complejidad del ejercicio, solicitando a los estudiantes que, con base en el código previamente desarrollado, lo adaptaran para incorporar una funcionalidad de inicio de sesión para usuarios registrados.
