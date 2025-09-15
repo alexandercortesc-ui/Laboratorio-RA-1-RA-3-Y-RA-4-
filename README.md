@@ -39,9 +39,8 @@ Este desafío exige a los estudiantes integrar y aplicar de forma efectiva los c
 Este ya es el reto final y el que mas exigencia tiene puesto que sera el codigo usado en el proyecto y representa el desafío de mayor complejidad, ya que el código desarrollado será implementado como parte integral del sistema. En esta etapa, se ha solicitado a los estudiantes integrar componentes de ejercicios previos con el objetivo de construir un módulo en Python para la gestión de consultas médicas.
 El módulo debe incorporar funciones que permitan:
 - Agendar una consulta médica en una fecha y hora determinada, validando previamente que el médico esté registrado como usuario en el sistema.
- ## Referencias
- [1] Geeks for Geeks, "What is an IP Address?",url=https://www.geeksforgeeks.org/computer-science-fundamentals/what-is-an-ip-address/ .
-
-[2] W3schools, "Javascript JSON",url=https://www.w3schools.com/js/js_json.asp.
 - Verificar la autenticación del paciente, quien debe haber iniciado sesión para poder programar una cita.
 - Persistir las consultas en un archivo de texto, almacenándolas como objetos JSON generados a partir de diccionarios en Python, siguiendo el mismo esquema utilizado para el registro de usuarios.
+ ## Referencias
+ [1] Geeks for Geeks, "What is an IP Address?",url=https://www.geeksforgeeks.org/computer-science-fundamentals/what-is-an-ip-address/ .
+[2] W3schools, "Javascript JSON",url=https://www.w3schools.com/js/js_json.asp.
