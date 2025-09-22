@@ -19,7 +19,7 @@ En el primer reto, se instruyó a los estudiantes a desarrollar un programa que 
 En el reto número 2, se solicitó a los estudiantes que, en concordancia con el ejercicio anterior, realizaran modificaciones al código de manera que los datos almacenados en un diccionario fueran guardados en un archivo de texto. Para ello, debían utilizar la función dumps del módulo json de Python (from json import dumps), previamente abordada en clase.
 El objetivo principal de esta actividad fue familiarizar a los estudiantes con el manejo de archivos en formato JSON, así como con la realizacion de estructuras de datos complejas, promoviendo una comprensión más profunda de los conceptos relacionados con el almacenamiento estructurado y el tratamiento de información avanzada.
 
-## Reto 3: Registro de multiples usuarios. Codigo: [´reto3.py´](reto3.py)
+## Reto 3: Registro de multiples usuarios. Codigo:
 En este reto se incrementó el nivel de exigencia, solicitando a los estudiantes que modificaran el código del ejercicio anterior para que no solo convierta los datos de un diccionario en texto plano, sino que además permita registrar múltiples usuarios en un archivo .
 La nueva versión del programa debe cumplir con los siguientes requisitos:
 - 	Registrar varios usuarios de forma consecutiva, almacenando cada uno como un objeto JSON en el archivo de texto.
