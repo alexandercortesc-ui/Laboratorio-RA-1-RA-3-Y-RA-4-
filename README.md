@@ -4,7 +4,6 @@
  <p align="center">
 Alexander cortes cordoba <br />
 Miguel Angel Morales Ortiz <br />
-Manuel David Lucero Casanova <br />
   <p align="center">
 Programació<pn, II-2025 <br />
 GDSPROC <br />
