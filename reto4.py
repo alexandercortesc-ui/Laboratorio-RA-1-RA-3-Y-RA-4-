@@ -1,5 +1,4 @@
 from json import dumps, loads
-import os
 
 # Función para solicitar los datos del usuario
 def datos():
@@ -48,7 +47,7 @@ archivo = input("Ingrese el nombre del archivo (con extensión .txt): ")
 
 # Carga los registros existentes o crea el archivo si no existe
 registros_existentes = []
-if os.path.exists(archivo):
+try:
     with open(archivo, 'r') as archivo_lectura:
         for linea in archivo_lectura:
             linea = linea.strip()
@@ -57,7 +56,7 @@ if os.path.exists(archivo):
                     registros_existentes.append(loads(linea))
                 except loads.JSONDecodeError:
                     pass
-else:
+except FileNotFoundError:
     print("El archivo no existe, se creará uno nuevo.")
 
 while True:
@@ -91,7 +90,7 @@ while True:
 
     elif opcion == '3':
         print("Saliendo del programa. ¡Hasta pronto!")
-        break # Esto sale del bucle 'while' y termina el programa
+        break
 
     else:
         print("Opción no válida. Por favor, intente de nuevo.")
