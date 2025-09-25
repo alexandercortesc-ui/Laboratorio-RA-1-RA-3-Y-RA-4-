@@ -28,14 +28,14 @@ La nueva versión del programa debe cumplir con los siguientes requisitos:
 -	Si el usuario no está previamente registrado, debe guardar sus datos correctamente y retornar una cadena que confirme el registro exitoso.
 
 Este ejercicio tuvo como objetivo consolidar los conocimientos adquiridos en los retos anteriores, promoviendo una implementación eficiente de estructuras de datos, validación de entradas y persistencia de información en formato estructurado.
-## Reto 4: Inicio de sesión del usuario. codigo:
+## Reto 4: Inicio de sesión del usuario. codigo: [´reto4.py´](reto4.py)
 En el reto número 4, se incrementó el nivel de complejidad del ejercicio, solicitando a los estudiantes que, con base en el código previamente desarrollado, lo adaptaran para incorporar una funcionalidad de inicio de sesión para usuarios registrados.
 El programa debe ser capaz de:
 - Validar la existencia del usuario en el sistema mediante su número de identificación.
 - Verificar la autenticidad de la contraseña proporcionada, asegurando que coincida con la registrada previamente.
 - En caso de autenticación exitosa, añadir un nuevo campo al diccionario del usuario que indique que la sesión se encuentra activa.
 Este desafío exige a los estudiantes integrar y aplicar de forma efectiva los conocimientos adquiridos en etapas anteriores, promoviendo así el desarrollo de habilidades avanzadas en el manejo y persistencia de datos estructurados.
-## Reto 5: Gestión de consultas médicas. Codigo:
+## Reto 5: Gestión de consultas médicas. Codigo: [´reto5.py´](reto5.py)
 Este ya es el reto final y el que mas exigencia tiene puesto que sera el codigo usado en el proyecto y representa el desafío de mayor complejidad, ya que el código desarrollado será implementado como parte integral del sistema. En esta etapa, se ha solicitado a los estudiantes integrar componentes de ejercicios previos con el objetivo de construir un módulo en Python para la gestión de consultas médicas.
 El módulo debe incorporar funciones que permitan:
 - Agendar una consulta médica en una fecha y hora determinada, validando previamente que el médico esté registrado como usuario en el sistema.
