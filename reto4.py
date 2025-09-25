@@ -60,24 +60,38 @@ if os.path.exists(archivo):
 else:
     print("El archivo no existe, se creará uno nuevo.")
 
-# Solicita cuántos usuarios se van a registrar
-cantidad = int(input("¿Cuántos usuarios desea registrar?: "))
+while True:
+    print("\n--- MENÚ PRINCIPAL ---")
+    print("1. Registrar nuevo usuario")
+    print("2. Iniciar sesión")
+    print("3. Salir")
+    opcion = input("Seleccione una opción: ")
 
-# Abre el archivo en modo 'a' para agregar nuevos registros
-with open(archivo, 'a') as archivo_escritura:
-    for i in range(cantidad):
-        print(f"\n Registro de la persona {i + 1}:")
-        usuario = datos()
-        usuario_serializado = dumps(usuario)
+    if opcion == '1':
+        # Lógica para registrar un usuario
+        cantidad = int(input("¿Cuántos usuarios desea registrar?: "))
+        with open(archivo, 'a') as archivo_escritura:
+            for i in range(cantidad):
+                print(f"\n Registro de la persona {i + 1}:")
+                usuario = datos()
+                usuario_serializado = dumps(usuario)
 
-        # Verifica si el ID ya existe usando any()
-        existe_id = any(u.get("ID") == usuario["ID"] for u in registros_existentes)
-        if existe_id:
-            print(f" Error: El usuario con ID {usuario['ID']} ya está registrado.")
-        else:
-            archivo_escritura.write(usuario_serializado + "\n")
-            registros_existentes.append(usuario)
-            print(f" Registro exitoso para {usuario['nombre']}.")
+                # Verifica si el ID ya existe usando any()
+                existe_id = any(u.get("ID") == usuario["ID"] for u in registros_existentes)
+                if existe_id:
+                    print(f" Error: El usuario con ID {usuario['ID']} ya está registrado.")
+                else:
+                    archivo_escritura.write(usuario_serializado + "\n")
+                    registros_existentes.append(usuario)
+                    print(f" Registro exitoso para {usuario['nombre']}.")
+    
+    elif opcion == '2':
+        # Llama a la función para iniciar sesión
+        iniciar_sesion(registros_existentes)
 
-# Llama a la nueva función para iniciar sesión
-iniciar_sesion(registros_existentes)
+    elif opcion == '3':
+        print("Saliendo del programa. ¡Hasta pronto!")
+        break # Esto sale del bucle 'while' y termina el programa
+
+    else:
+        print("Opción no válida. Por favor, intente de nuevo.")
