@@ -74,7 +74,7 @@ while True:
                 usuario = datos()
                 usuario_serializado = dumps(usuario)
 
-                # Verifica si el ID ya existe usando any()
+                # Verifica si el ID ya existe 
                 existe_id = (["ID"] == usuario["ID"] )
                 if existe_id == registros_existentes:
                     print(f" Error: El usuario con ID {usuario['ID']} ya está registrado.")
@@ -92,4 +92,5 @@ while True:
         break
 
     else:
+
         print("Opción no válida. Por favor, intente de nuevo.")
